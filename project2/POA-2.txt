@@ -1,0 +1,16 @@
+{\rtf1\ansi\ansicpg950\cocoartf1561\cocoasubrtf200
+{\fonttbl\f0\fswiss\fcharset0 Helvetica;}
+{\colortbl;\red255\green255\blue255;}
+{\*\expandedcolortbl;;}
+\paperw11900\paperh16840\margl1440\margr1440\vieww10800\viewh8400\viewkind0
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\pardirnatural\partightenfactor0
+
+\f0\fs24 \cf0 Ching-Wei Lin\
+#987563037\
+Project-2\
+\
+For the project2, the main goal of this project is read text from a file and write text out to a file. This project I also divide it into two part. The first one is dealing with the I/O function, like how could I read from a file and in what way, by line or by character and how do I write out to a file and by line or by character. The second part is dealing the argument. Because there are multiple arguments may appear, I have to recognize if them are all valid. Also, they are not in such order, so the recognition would be more complicate.\
+\
+In the first part, I implement TextParser class and TextDumper class. I use BufferedReader and FileReader to read from a file. I read the text by one line and them divide it into many parts which represent name, caller, callee, start time and end time. Then, paste them into a PhoneCall constructor and add it to my PhoneBill. In the TextDumper, I use FileOutputStream to write my PhoneCalls into a file by one line in order to match the same format of the original one.  \
+\
+In the second part, I examine the length of the arguments first and then go through each argument ti see if they are valid. For example, if there a \'93-README\'94 appears, just print out the README and do nothing, ignoring the rest of the arguments. Or if the length of the argument is greater than eleven, there must be some invalid argument. Then, call the error and exit the program.}

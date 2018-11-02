@@ -1,0 +1,20 @@
+{\rtf1\ansi\ansicpg950\cocoartf1561\cocoasubrtf200
+{\fonttbl\f0\fswiss\fcharset0 Helvetica;\f1\froman\fcharset0 Times-Roman;}
+{\colortbl;\red255\green255\blue255;\red0\green0\blue0;}
+{\*\expandedcolortbl;;\cssrgb\c0\c0\c0;}
+\paperw11900\paperh16840\margl1440\margr1440\vieww11940\viewh9380\viewkind0
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\pardirnatural\partightenfactor0
+
+\f0\fs24 \cf0 Ching-Wei Lin\
+#987563037\
+Project-4\
+\
+For the project4, it\'92s a whole new project, but I am so excited about it since I never work on any kind of web program or server program. In this program, it can also be divided into two parts. One is for implementation of class \cf2 \expnd0\expndtw0\kerning0
+PhoneBillServlet and the other is working on class project4.
+\f1\fs26\fsmilli13333 \uc0\u8232 
+\f0\fs24 \cf0 \kerning1\expnd0\expndtw0 \
+In the first part, there are two command for use, one is GET, which \cf2 \expnd0\expndtw0\kerning0
+returns all calls in the phone bill formatted using the PrettyPrinter. PrettyPrinter functions as same as the previous one in project3. The other one is POST, which creates a new call from the HTTP request parameters customer, callerNumber, calleeNumber, startTime, and endTime. If the phone bill does not exist, a new one should be created. Then, in the end, GET returns all of given phone bill\'92s calls that occurred between the startTime and the endTime.\
+\
+In the second part, my class project4 interact with the server. It sends requests to the server and then use the search command. The server returns the requested data back and print them out.
+\f1\fs26\fsmilli13333 \uc0\u8232 }
